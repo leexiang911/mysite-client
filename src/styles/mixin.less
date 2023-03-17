@@ -1,0 +1,38 @@
+// 提供各种混合样式
+
+.self-center(@pos: absolute) {
+  position: @pos;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.self-fill(@pos: absolute) {
+  position: @pos;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+//弹出框样式
+.showtoast-success() {
+  color: #146c43;
+  background-color: #a3cfbb;
+}
+
+.showtoast-error() {
+  color: #b02a37;
+  background-color: #f1aeb5;
+}
+
+.showtoast-wran() {
+  color: #997404;
+  background-color: #ffe69c;
+}
+
+.showtoast-info() {
+  color: #087990;
+  background-color: #9eeaf9;
+}
